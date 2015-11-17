@@ -6,13 +6,16 @@
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-size: 20px;
+    color: #1E1824;
+    background-color: #FBFCEE;
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
     height: 400px;
-    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+    background: url('../img/logo.png') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -32,4 +35,12 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+.btn {
+    background-color: #9EC455;
+}
+
+.btn:hover {
+    background-color: #FBFCEE;
 }
