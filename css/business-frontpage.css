@@ -14,7 +14,7 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-    height: 400px;
+    height: 150px;
     background: url('../img/logo.png') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -44,3 +44,27 @@ footer {
 .btn:hover {
     background-color: #FBFCEE;
 }
+
+.panel-title {
+    font-size: 22px;
+    color: #1E1824;
+    font-weight: normal;
+}
+
+.panel-default > .panel-heading {
+    background-color: #F0DEB8;
+}
+
+.btn-faq {
+    font-size: 24px;
+}
+
+.breadcrumb {
+    background-color: #9EC455;
+}
+
+.mail {
+    font-size: 24px;
+    font-weight: bold;
+}
+
